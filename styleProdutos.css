@@ -1,0 +1,109 @@
+header{
+    background: #dc7b34;
+}
+
+.pdpLogo{
+    position: relative;
+    width: 20%;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+nav {
+    position: absolute;
+    top: 170px;
+    right: 210px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 75px;   
+}
+
+nav a{
+    text-transform: uppercase;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: lightgray;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+
+.produtos li {
+   display: inline-block;
+   width: 30%; 
+   text-align: center; 
+   vertical-align: top;
+   margin: 25px 1.5%;
+   padding: 15px 10px;
+   box-sizing: border-box;
+   border: 6px solid #dc7b34;
+   border-top-width: 6px;
+   border-radius: 30px;
+}
+
+.produtos li:hover {
+    border: 10px solid #dc7b34;
+}
+
+.produtos li:active {
+    border-color: lightgray;
+}
+
+.imgprodutos {
+    width: 100%;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.produtos h2:active {
+    color: lightgray;
+}
+
+.descricao {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.preço {
+    font-weight: bold;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    background: #dc7b34;
+    font-size: 24px;
+    padding:15px;
+}
+
+.logoFoot {
+    width: 10%;
+}
+
+.copyright {
+    font-size: 16px;
+    padding: 8px;
+}
